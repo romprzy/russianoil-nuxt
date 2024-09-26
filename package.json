@@ -12,6 +12,7 @@
     "preview": "nuxt preview",
     "preview:local": "nuxt preview --dotenv .env.build.local",
     "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs",
     "lint": "eslint"
   },
   "dependencies": {
