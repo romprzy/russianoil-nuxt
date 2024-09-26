@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "russianoil-info",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -12,7 +12,6 @@
     "preview": "nuxt preview",
     "preview:local": "nuxt preview --dotenv .env.build.local",
     "postinstall": "nuxt prepare",
-    "start": "node .output/server/index.mjs",
     "lint": "eslint"
   },
   "dependencies": {
